@@ -5,7 +5,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.decomposition import NMF
 
 # Load
-DATA_PATH = Path("/data/raw/climate_data.csv")
+DATA_PATH = Path("data/raw/climate_data.csv")
 df = pd.read_csv(DATA_PATH)
 
 # Clean

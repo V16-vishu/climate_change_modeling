@@ -7,8 +7,8 @@ import nltk
 nltk.download("vader_lexicon")
 from nltk.sentiment import SentimentIntensityAnalyzer
 
-RAW = Path("../data/raw/climate_data.csv")
-OUT = Path("../data/processed/comments_with_sentiment.csv")
+
+OUT = Path("/data/processed/comments_with_sentiment.csv")
 OUT.parent.mkdir(parents=True, exist_ok=True)
 
 # Add normalize_text here
